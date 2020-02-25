@@ -4,6 +4,8 @@
 <remote name="caos" fetch="https://github.com/eremitein/" />
 <project path="vendor/hardware_overlay" name="vendor_hardware_overlay_caos" remote="caos" revision="v210" />
 <project path="device/phh/treble" name="device_phh_treble_caos" remote="caos" revision="v210" />
+<project path="external/googlesans-fonts" name="external_googlesans-fonts_caos" remote="caos" revision="master" />
+<project path="external/simpleday-fonts" name="external_simpleday-fonts_caos" remote="caos" revision="master" />
 
 <remote name="phh" fetch="https://github.com/phhusson/" />
 <project path="vendor/vndk" name="vendor_vndk" remote="phh" revision="android-10.0" />
@@ -23,5 +25,6 @@
 <project path="external/libncurses" name="android_external_libncurses" remote="los" revision="lineage-17.1" />
 <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" revision="lineage-17.1" />
 <project path="external/p7zip" name="android_external_p7zip" remote="los" revision="lineage-17.1" />
+<project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los" revision="lineage-17.1" />
 
 </manifest>
