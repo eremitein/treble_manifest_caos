@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-<remote name="caos" fetch="https://github.com/eremitein/" />
-<project path="vendor/hardware_overlay" name="vendor_hardware_overlay_caos" remote="caos" revision="v210" />
-<project path="device/phh/treble" name="device_phh_treble_caos" remote="caos" revision="v210" />
-<project path="external/googlesans-fonts" name="external_googlesans-fonts_caos" remote="caos" revision="master" />
-<project path="external/simpleday-fonts" name="external_simpleday-fonts_caos" remote="caos" revision="master" />
-
 <remote name="phh" fetch="https://github.com/phhusson/" />
+
+<project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="phh" revision="pie" />
+<project path="device/phh/treble" name="device_phh_treble" remote="phh" revision="android-10.0" />
 <project path="vendor/vndk" name="vendor_vndk" remote="phh" revision="android-10.0" />
 <project path="vendor/vndk-tests" name="vendor_vndk-tests" remote="phh" revision="master" />
 <project path="vendor/gapps-go" name="gapps-go" remote="phh" revision="master" />
 <project path="vendor/interfaces" name="vendor_interfaces" remote="phh" revision="pie" />
-
 <project path="vendor/magisk" name="vendor_magisk" remote="phh" revision="android-10.0" />
 
 <!-- exfat support -->
@@ -25,6 +20,10 @@
 <project path="external/libncurses" name="android_external_libncurses" remote="los" revision="lineage-17.1" />
 <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" revision="lineage-17.1" />
 <project path="external/p7zip" name="android_external_p7zip" remote="los" revision="lineage-17.1" />
-<project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los" revision="lineage-17.1" />
+<project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los"           revision="lineage-17.1" />
+
+<remote name="caos" fetch="https://github.com/eremitein/" />
+<project path="external/googlesans-fonts" name="external_googlesans-fonts_caos" remote="caos" revision="master" />
+<project path="external/simpleday-fonts" name="external_simpleday-fonts_caos" remote="caos" revision="master" />
 
 </manifest>
