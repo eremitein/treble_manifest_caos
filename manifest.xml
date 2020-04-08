@@ -25,5 +25,23 @@
 <remote name="caos" fetch="https://github.com/eremitein/" />
 <project path="external/googlesans-fonts" name="external_googlesans-fonts_caos" remote="caos" revision="master" />
 <project path="external/simpleday-fonts" name="external_simpleday-fonts_caos" remote="caos" revision="master" />
+<project path="external/jura-fonts" name="external_jura-fonts_caos" remote="caos" revision="master" />
+<project path="external/cuprum-fonts" name="external_cuprum-fonts_caos" remote="caos" revision="master" />
+<project path="external/philosopher-fonts" name="external_philosopher-fonts_caos" remote="caos" revision="master" />
+<project path="external/ubuntu-fonts" name="external_ubuntu-fonts_caos" remote="caos" revision="master" />
+<project path="external/caveat-fonts" name="external_caveat-fonts_caos" remote="caos" revision="master" />
+<project path="external/oswald-fonts" name="external_oswald-fonts_caos" remote="caos" revision="master" />
+<project path="external/inter-fonts" name="external_inter-fonts_caos" remote="caos" revision="master" />
+<project path="external/pacifico-fonts" name="external_pacifico-fonts_caos" remote="caos" revision="master" />
+<project path="external/montserrat-fonts" name="external_montserrat-fonts_caos" remote="caos" revision="master" />
+<project path="external/viaodalibre-fonts" name="external_viaodalibre-fonts_caos" remote="caos" revision="master" />
+<project path="external/lobster-fonts" name="external_lobster-fonts_caos" remote="caos" revision="master" />
+<project path="external/alegreyasans-fonts" name="external_alegreyasans-fonts_caos" remote="caos" revision="master" />
+<project path="external/comfortaa-fonts" name="external_comfortaa-fonts_caos" remote="caos" revision="master" />
+<project path="external/exo2-fonts" name="external_exo2-fonts_caos" remote="caos" revision="master" />
+<project path="external/vollkorn-fonts" name="external_vollkorn-fonts_caos" remote="caos" revision="master" />
+<project path="external/cormorantinfant-fonts" name="external_cormorantinfant-fonts_caos" remote="caos" revision="master" />
+<project path="external/gabriela-fonts" name="external_gabriela-fonts_caos" remote="caos" revision="master" />
+<project path="external/arsenal-fonts" name="external_arsenal-fonts_caos" remote="caos" revision="master" />
 
 </manifest>
