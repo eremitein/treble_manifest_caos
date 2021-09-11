@@ -42,6 +42,9 @@
 <project path="packages/apps/ThemeStub" name="packages_apps_ThemeStub_caos" remote="caos" revision="master" />
 <project path="packages/apps/FOSSBrowser" name="packages_apps_FOSSBrowser_caos" remote="caos" revision="master" />
 <project path="external/libbfqio" name="external_libbfqio_caos" remote="caos" revision="master" />
+<remote name="notmyst33d" fetch="https://github.com/notmyst33d/" />
+<project path="external/aptx" name="libaptX" remote="notmyst33d" revision="master" />
+
 <!--
 <project path="packages/apps/me.phh.superuser" name="packages_apps_Superuser_caos" remote="caos" revision="master" />
 -->
