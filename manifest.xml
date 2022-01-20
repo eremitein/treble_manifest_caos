@@ -19,6 +19,7 @@
 <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" revision="lineage-18.1" />
 <project path="external/p7zip" name="android_external_p7zip" remote="los" revision="lineage-18.1" />
 <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los" revision="lineage-18.1" />
+<project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="los" revision="lineage-18.1" />
 
 <remote name="caos" fetch="https://github.com/eremitein/" />
 <project path="external/jura-fonts" name="external_jura-fonts_caos" remote="caos" revision="master" />
